@@ -8,7 +8,7 @@ If its needed an authorization, it'll be done by a TOKEN generated in AUTH API f
 
 ## Web App UI
 ![wireframe1.png](wireframe1.png)
-![wireframe2.png](wireframe2.png)
+![wireframe22.png](wireframe22.png)
 ![img.png](wireframe3.png)
 ## Data Model
 ![datamodel.png](datamodel.png)
