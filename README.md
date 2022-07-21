@@ -2,9 +2,10 @@
 
 ## High Level Design, Restful API and Web Server ![highlevel.png](highlevel.png)
 
-The Client has to be authorized on API Gateway, after that it'll be possible to save, delete or get new notes. Also API Gateway will be responsible to manage which endpoints could be access with or without authorization.
+In order to save, delete or get notes the Client has to call the Note API, passing first through the API Gateway where its access will be validated and might be authorized.So API Gateway has the responsibility
+of managing which endpoints should be accessed with or without authorization.
 
-If its needed an authorization, it'll be done by a TOKEN generated in AUTH API following the OAUTH protocol.
+If it's needed an authorization, it will be done by a TOKEN generated in AUTH API following the OAUTH protocol.
 
 ## Web App UI
 ![wireframe1.png](wireframe1.png)
